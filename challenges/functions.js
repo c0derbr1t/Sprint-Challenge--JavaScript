@@ -38,7 +38,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: Anything can reach outward. It's like backwards inheritance. Things cannot reach down inside of things to grab information, but things can reach up and grab things bigger than their scope.
 
 
 const external = "I'm outside the function";
@@ -53,3 +53,4 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
